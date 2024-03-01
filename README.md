@@ -10,4 +10,4 @@ Camcorder is based on Java and JavaFX. If your JDK version is less than 10 (best
 Otherwise, if your JDK is higher than 10, you need to download Open JavaFX according to your JDK version.
 The manifest.mf file is for creating the JAR file using Java's jar utility
 
-The animation “gifhy.gif” shows you how Virtual Camcorder works. It is an intuitive Diaglog application.
+The animation “gify.gif” shows you how Virtual Camcorder works. It is an intuitive Diaglog application.
