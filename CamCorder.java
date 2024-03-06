@@ -105,11 +105,13 @@ public class CamCorder extends Application {
       stage.hide();
       disable(false);
       focused = true;
+      panel.setIconified(false);
     });
     //
     focus = Tools.getButton("FOCUS", "Focus Screen Image");
     focus.setOnAction(ev -> {
       gc.clearRect(0, 0, wMx, hMx);
+      panel.setIconified(true);
       disable(true);
       stage.show();
       x0 = y0 = -1;
