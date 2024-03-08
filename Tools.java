@@ -32,7 +32,7 @@ public class Tools {
   */
   public static BufferedImage iClone(BufferedImage bImg) {
     int w = bImg.getWidth(), h = bImg.getHeight();
-    BufferedImage img = new BufferedImage(w, h, bImg.getType());
+    BufferedImage img = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
     img.setRGB(0, 0, w, h, bImg.getRGB(0, 0, w, h, null, 0, w), 0, w);
     return img;
   }
